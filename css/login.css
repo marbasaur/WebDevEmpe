@@ -1,23 +1,39 @@
-@font-face{
-	font-family: Round;
-	src: url('custom_fonts/Typo_Round_Regular_Demo.otf');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Varela+Round');
+
+*{
+	font-family: 'Roboto', sans-serif;
 }
 
-@font-face{
-	font-family: Roboto;
-	src: url('custom_fonts/Roboto-Regular.ttf');
+.login-bg{
+	background: url("../images/bg.jpg") no-repeat;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #FFF;
 }
-
-body{
-	background-color: #fff;
-}
-
-/*.login-bg{
-	background-color: #2ecc71;
-}*/
 
 .form-container{
-	border: 1px solid #bdc3c7;
+	border: 0px solid #000;
 	padding: 50px 60px;
 	margin-top: 20vh;
+	-webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.24);
+	-moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.24);
+	box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.24);
+}
+
+.login-h1{
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+	color: #ECEAE9;
+}
+
+.forgot-pass{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.forgot-pass:hover{
+	text-decoration: none;
+	color: #E3DDDC;
 }

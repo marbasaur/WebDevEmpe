@@ -10,29 +10,27 @@
 		<link rel="stylesheet" type="text/css" href="./css/login.css">
 	</head>
 
-	<body>
+	<body class="login-bg">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-sm-4 col-xs-12"></div>
-				<div class="col-md-4 col-sm-4 col-xs-12">
-					<form class="form-container" action="process.php" method="POST">
+			<div class="col-md-4 col-sm-4 col-xs-12"></div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<form class="form-container" action="process.php" method="POST">
+					<div class="form-group">
+						<h1 class="login-h1">Login</h1>
 						<div class="form-group">
-							<h2>Login</h2>
-							<div class="form-group">
-								<input class="form-control" type="text" id="user" name="user" placeholder="Username" required="required" autofocus="autofocus" />
-							</div>
-							<div class="form-group">
-								<input class="form-control" type="password" id="pass" name="pass" placeholder="Password" required="required" />
-							</div>
-							<div class="form-group">
-								<button class="btn btn-primary btn-block" type="submit" id="btn">Login</button>
-							</div>
-							<a class="forgot-pass" href="#">Forgot your password?</a>
+							<input class="form-control" type="text" id="user" name="user" placeholder="Username" required="required" autofocus="autofocus" />
 						</div>
-					</form>
-				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12"></div>
+						<div class="form-group">
+							<input class="form-control" type="password" id="pass" name="pass" placeholder="Password" required="required" />
+						</div>
+						<div class="form-group">
+							<button class="btn btn-default btn-block" type="submit" id="btn">Login</button>
+						</div>
+						<a class="forgot-pass" href="#">Forgot your password?</a>
+					</div>
+				</form>
 			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12"></div>
 		</div>
 	</body>
 </html>

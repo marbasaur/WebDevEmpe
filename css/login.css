@@ -1,17 +1,23 @@
+@font-face{
+	font-family: Round;
+	src: url('custom_fonts/Typo_Round_Regular_Demo.otf');
+}
+
+@font-face{
+	font-family: Roboto;
+	src: url('custom_fonts/Roboto-Regular.ttf');
+}
+
 body{
-	background: #eee;
+	background-color: #fff;
 }
-#frm{
-	border: solid gray 1 px;
-	width: 20%;
-	border-radius: 5px;
-	margin: 100px auto;
-	background: white;
-	padding: 50px;
-}
-#btn{
-	color: #fff;
-	background: #337ab7;
-	padding: 5px;
-	margin-left: 69%;
+
+/*.login-bg{
+	background-color: #2ecc71;
+}*/
+
+.form-container{
+	border: 1px solid #bdc3c7;
+	padding: 50px 60px;
+	margin-top: 20vh;
 }
